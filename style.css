@@ -2,6 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     transform: skew(1deg, 1deg);
+
+    background: green; /* Old browsers */
 }
 body {
     background: rgb(29,255,0); /* Old browsers */
@@ -68,7 +70,7 @@ img {
     transform: rotateX(deg);
 }
 .container {
-    background-image: url(/images/ChimpJustJammin.jpeg);
+    background-image: url(ChimpJustJammin.jpeg);
     width: 70%;
     height: 700px;
     background-size: cover;
@@ -78,7 +80,7 @@ img {
 
 .blurbox {
     
-    background-image: url(/images/ChimpJustJammin.jpeg);
+    background-image: url(ChimpJustJammin.jpeg);
     /* filter: blur(5px); */
     position: fixed;
     height: 800px;
